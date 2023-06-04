@@ -1,0 +1,868 @@
+ 1:43:58 PM packagekitd: resolve transaction /395_dcaebcac from uid 1000 finished with success after 320ms
+ 1:43:58 PM systemd: Started packagekit.service - PackageKit Daemon.
+ 1:43:58 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.PackageKit'
+ 1:43:58 PM packagekitd: daemon start
+ 1:43:58 PM systemd: Starting packagekit.service - PackageKit Daemon...
+ 1:43:58 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.90' (uid=1000 pid=2635 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+ 1:43:54 PM nautilus: Source ID 1307 was not found when attempting to remove it
+ 1:43:54 PM gnome-character: JS LOG: Characters Application started
+ 1:43:54 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.Calendar'
+ 1:43:54 PM systemd: Started systemd-timedated.service - Time & Date Service.
+ 1:43:54 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.timedate1'
+ 1:43:54 PM systemd: Starting systemd-timedated.service - Time & Date Service...
+ 1:43:54 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.Characters'
+ 1:40:25 PM systemd: Finished ua-timer.service - Ubuntu Advantage Timer for running repeated jobs.
+ 1:37:47 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.Terminal'
+ 1:37:47 PM systemd: Starting gnome-terminal-server.service - GNOME Terminal Server...
+ 1:37:47 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.239' (uid=1000 pid=11389 comm="/usr/bin/gnome-terminal.real --wait" label="unconfined")
+ 1:37:47 PM systemd: Started app-gnome-x\x2dterminal\x2demulator-11386.scope - Application launched by gsd-media-keys.
+ 1:34:02 PM kernel: Normal exit (0 jobs run)
+ 1:34:02 PM kernel: Anacron 2.3 started on 2023-05-29
+ 1:34:02 PM systemd: anacron.service: Deactivated successfully.
+ 1:32:51 PM wpa_supplicant: wlp4s0: WPA: Group rekeying completed with 2e:a2:7f:a2:19:c8 [GTK=CCMP]
+ 1:32:16 PM cat: [0529/133216.037741:ERROR:file_io_posix.cc(152)] open /home/dani/.config/google-chrome/Crash Reports/pending/f20b93c9-6187-4769-81ac-c5acff8df4b2.lock: File exists (17)
+ 1:30:01 PM cron: pam_unix(cron:session): session closed for user root
+ 1:30:01 PM kernel: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+ 1:30:01 PM cron: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+ 1:28:56 PM cat: Fontconfig error: Cannot load default config file: No such file: (null)
+ 1:17:51 PM wpa_supplicant: wlp4s0: WPA: Group rekeying completed with 2e:a2:7f:a2:19:c8 [GTK=CCMP]
+ 1:17:16 PM cat: [0529/131716.037365:ERROR:file_io_posix.cc(152)] open /home/dani/.config/google-chrome/Crash Reports/pending/f20b93c9-6187-4769-81ac-c5acff8df4b2.lock: File exists (17)
+ 1:17:01 PM cron: pam_unix(cron:session): session closed for user root
+ 1:17:01 PM sh: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ 1:17:01 PM cron: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+ 1:02:51 PM wpa_supplicant: wlp4s0: WPA: Group rekeying completed with 2e:a2:7f:a2:19:c8 [GTK=CCMP]
+ 1:02:16 PM cat: [0529/130216.036819:ERROR:file_io_posix.cc(152)] open /home/dani/.config/google-chrome/Crash Reports/pending/f20b93c9-6187-4769-81ac-c5acff8df4b2.lock: File exists (17)
+ 1:00:34 PM systemd: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+12:57:16 PM cat: [0529/125716.041774:ERROR:file_io_posix.cc(152)] open /home/dani/.config/google-chrome/Crash Reports/pending/f20b93c9-6187-4769-81ac-c5acff8df4b2.lock: File exists (17)
+12:51:52 PM systemd: packagekit.service: Consumed 27.578s CPU time.
+12:51:52 PM packagekitd: daemon quit
+12:51:10 PM systemd: systemd-timedated.service: Deactivated successfully.
+12:50:43 PM snapd: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core18", "core20", "core22", "firefox", "gnome-42-2204", "gtk-common-themes", "qt515-core20", "snap-store", "snapd", "snapd-desktop-integration", "telegram-desktop"
+12:50:40 PM systemd: Started systemd-timedated.service - Time & Date Service.
+12:50:40 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.timedate1'
+12:50:40 PM systemd: Starting systemd-timedated.service - Time & Date Service...
+12:50:40 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.24' (uid=0 pid=690 comm="/usr/lib/snapd/snapd" label="unconfined")
+12:50:36 PM systemd: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+12:50:10 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.DejaDup'
+12:50:06 PM gnome-shell: See https://wayland.freedesktop.org/libinput/doc/1.22.1/touchpad-jumping-cursors.html for details
+12:48:55 PM systemd: NetworkManager-dispatcher.service: Deactivated successfully.
+12:48:47 PM avahi-daemon: Registering new address record for 2409:40f3:1c:4613:be82:bb98:228e:b3e1 on wlp4s0.*.
+12:48:45 PM systemd: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+12:48:45 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+12:48:45 PM systemd: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+12:48:45 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.16' (uid=0 pid=751 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+12:48:45 PM NetworkManager: <info>  [1685344725.0610] dhcp6 (wlp4s0): state changed new lease
+12:48:45 PM systemd-resolve: wlp4s0: Bus client set DNS server list to: 172.20.10.1, fe80::b419:74ff:fea1:f464
+12:48:45 PM avahi-daemon: Withdrawing address record for fe80::bed3:2e50:ce9:6a8c on wlp4s0.
+12:48:45 PM NetworkManager: <info>  [1685344725.0443] dhcp6 (wlp4s0): activation: beginning transaction (timeout in 45 seconds)
+12:48:28 PM cat: [5142:5142:0529/124828.785027:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+12:48:26 PM systemd: NetworkManager-dispatcher.service: Deactivated successfully.
+12:48:20 PM wpa_supplicant: wlp4s0: Reject scan trigger since one is already pending
+12:48:18 PM avahi-daemon: Registering new address record for 2409:40f3:1c:4613:dd91:8df5:b901:b441 on enxb619741aab4e.*.
+12:48:16 PM systemd-resolve: enxb619741aab4e: Bus client set DNS server list to: 172.20.10.1, fe80::b419:74ff:fea1:f464
+12:48:16 PM avahi-daemon: Withdrawing address record for fe80::45b3:fb88:e1a6:467b on enxb619741aab4e.
+12:48:16 PM NetworkManager: <info>  [1685344696.3518] dhcp6 (enxb619741aab4e): state changed new lease
+12:48:16 PM avahi-daemon: Joining mDNS multicast group on interface enxb619741aab4e.IPv6 with address 2409:40f3:1c:4613:d7b5:69a3:7d07:3d39.
+12:48:16 PM NetworkManager: <info>  [1685344696.3480] policy: set 'Wired connection 2' (enxb619741aab4e) as default for IPv6 routing and DNS
+12:48:15 PM wpa_supplicant: wlp4s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-35 noise=-98 txrate=468000
+12:48:15 PM geoclue: Failed to query location: No WiFi networks found
+12:48:15 PM NetworkManager: <info>  [1685344695.3522] manager: NetworkManager state is now CONNECTED_GLOBAL
+12:48:15 PM systemd-resolve: wlp4s0: Bus client set DNS server list to: 172.20.10.1
+12:48:15 PM avahi-daemon: Registering new address record for 172.20.10.5 on wlp4s0.IPv4.
+12:48:15 PM NetworkManager: <info>  [1685344695.2238] dhcp4 (wlp4s0): state changed new lease, address=172.20.10.5
+12:48:15 PM avahi-daemon: Registering new address record for fe80::bed3:2e50:ce9:6a8c on wlp4s0.*.
+12:48:15 PM kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlp4s0: link becomes ready
+12:48:15 PM NetworkManager: <info>  [1685344695.2115] dhcp4 (wlp4s0): activation: beginning transaction (timeout in 45 seconds)
+12:48:15 PM wpa_supplicant: wlp4s0: CTRL-EVENT-CONNECTED - Connection to 2e:a2:7f:a2:19:c8 completed [id=0 id_str=]
+12:48:15 PM NetworkManager: <info>  [1685344695.1054] device (p2p-dev-wlp4s0): supplicant management interface state: associated -> 4way_handshake
+12:48:15 PM kernel: ath: regdomain 0x8164 dynamically updated by country element
+12:48:15 PM kernel: wlp4s0: associated
+12:48:15 PM NetworkManager: <info>  [1685344695.0773] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> associating
+12:48:15 PM kernel: wlp4s0: authenticated
+12:48:15 PM cat: [5142:5142:0529/124815.068221:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+12:48:15 PM kernel: wlp4s0: send auth to 2e:a2:7f:a2:19:c8 (try 1/3)
+12:48:15 PM NetworkManager: <info>  [1685344695.0061] device (p2p-dev-wlp4s0): supplicant management interface state: scanning -> authenticating
+12:48:14 PM kernel: wlp4s0: authenticate with 2e:a2:7f:a2:19:c8
+12:48:14 PM NetworkManager: <info>  [1685344694.4960] device (enxb619741aab4e): Activation: successful, device activated.
+12:48:14 PM systemd-resolve: enxb619741aab4e: Bus client set DNS server list to: 172.20.10.1
+12:48:14 PM avahi-daemon: Registering new address record for 172.20.10.9 on enxb619741aab4e.IPv4.
+12:48:14 PM NetworkManager: <info>  [1685344694.4776] policy: set 'Wired connection 2' (enxb619741aab4e) as default for IPv4 routing and DNS
+12:48:14 PM avahi-daemon: Registering new address record for fe80::45b3:fb88:e1a6:467b on enxb619741aab4e.*.
+12:48:14 PM NetworkManager: <info>  [1685344694.4685] dhcp4 (enxb619741aab4e): activation: beginning transaction (timeout in 45 seconds)
+12:48:10 PM systemd: Started app-gnome-org.gnome.DejaDup.Monitor-5549.scope - Application launched by gnome-session-binary.
+12:48:09 PM NetworkManager: <info>  [1685344689.9677] device (p2p-dev-wlp4s0): supplicant management interface state: scanning -> disconnected
+12:48:09 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+12:48:08 PM NetworkManager: <info>  [1685344688.0692] Config: added 'psk' value '<hidden>'
+12:48:08 PM wpa_supplicant: wlp4s0: Reject scan trigger since one is already pending
+12:48:08 PM NetworkManager: <info>  [1685344688.0630] device (wlp4s0): state change: deactivating -> disconnected (reason 'new-activation', sys-iface-state: 'managed')
+12:48:08 PM systemd: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+12:48:08 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+12:48:08 PM systemd: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+12:48:08 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.16' (uid=0 pid=751 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+12:48:08 PM NetworkManager: <info>  [1685344688.0006] audit: op="connection-activate" uuid="0c47ed12-b5e8-433d-acf5-6d2e8d2170ac" name="DANIEL’s iPhone" pid=5016 uid=1000 result="success"
+12:48:04 PM systemd: NetworkManager-dispatcher.service: Deactivated successfully.
+12:47:55 PM NetworkManager: <info>  [1685344675.1002] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> disconnected
+12:47:55 PM wpa_supplicant: wlp4s0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="DANIEL\xe2\x80\x99s iPhone" auth_failures=1 duration=10 reason=CONN_FAILED
+12:47:55 PM NetworkManager: <info>  [1685344675.0535] device (p2p-dev-wlp4s0): supplicant management interface state: scanning -> authenticating
+12:47:55 PM kernel: wlp4s0: authenticate with a2:ae:59:ac:82:7c
+12:47:54 PM NetworkManager: <info>  [1685344674.9569] Config: added 'psk' value '<hidden>'
+12:47:54 PM wpa_supplicant: wlp4s0: PMKSA-CACHE-REMOVED a2:ae:59:ac:82:7c 0
+12:47:54 PM NetworkManager: <info>  [1685344674.9494] device (wlp4s0): state change: deactivating -> disconnected (reason 'new-activation', sys-iface-state: 'managed')
+12:47:54 PM systemd: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+12:47:54 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+12:47:54 PM systemd: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+12:47:54 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.16' (uid=0 pid=751 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+12:47:54 PM NetworkManager: <info>  [1685344674.9103] audit: op="connection-activate" uuid="0c47ed12-b5e8-433d-acf5-6d2e8d2170ac" name="DANIEL’s iPhone" pid=2176 uid=1000 result="success"
+12:47:51 PM cat: [5096:5126:0529/124751.501982:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+12:47:50 PM NetworkManager: <info>  [1685344670.9225] device (enxb619741aab4e): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+12:47:47 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+12:47:39 PM systemd: NetworkManager-dispatcher.service: Deactivated successfully.
+12:47:37 PM kernel: wlp4s0: Limiting TX power to 23 (23 - 0) dBm as advertised by a2:ae:59:ac:82:7c
+12:47:36 PM NetworkManager: <info>  [1685344656.9977] device (p2p-dev-wlp4s0): supplicant management interface state: associating -> associated
+12:47:36 PM kernel: ath: regdomain 0x8164 dynamically updated by country element
+12:47:36 PM kernel: wlp4s0: associated
+12:47:36 PM NetworkManager: <info>  [1685344656.9832] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> associating
+12:47:36 PM wpa_supplicant: wlp4s0: Trying to associate with a2:ae:59:ac:82:7c (SSID='DANIEL\xe2\x80\x99s iPhone' freq=5745 MHz)
+12:47:36 PM NetworkManager: <info>  [1685344656.9103] device (p2p-dev-wlp4s0): supplicant management interface state: scanning -> authenticating
+12:47:36 PM kernel: wlp4s0: authenticate with a2:ae:59:ac:82:7c
+12:47:35 PM code: [4355:0529/124735.391755:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+12:47:35 PM systemd: Started app-gnome-gnome\x2dwifi\x2dpanel-5450.scope - Application launched by gnome-shell.
+12:47:31 PM NetworkManager: <info>  [1685344651.9741] device (p2p-dev-wlp4s0): supplicant management interface state: disconnected -> scanning
+12:47:30 PM wpa_supplicant: wlp4s0: Reject scan trigger since one is already pending
+12:47:30 PM systemd: systemd-hostnamed.service: Deactivated successfully.
+12:47:30 PM cat: [5096:5126:0529/124730.753799:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+12:47:29 PM NetworkManager: <info>  [1685344649.3351] manager: NetworkManager state is now CONNECTED_LOCAL
+12:47:29 PM systemd-resolve: enxb619741aab4e: Bus client reset DNS server list.
+12:47:29 PM avahi-daemon: Interface enxb619741aab4e.IPv4 no longer relevant for mDNS.
+12:47:29 PM NetworkManager: <info>  [1685344649.2380] dhcp6 (enxb619741aab4e): state changed no lease
+12:47:29 PM avahi-daemon: Interface enxb619741aab4e.IPv6 no longer relevant for mDNS.
+12:47:29 PM NetworkManager: <info>  [1685344649.2378] dhcp4 (enxb619741aab4e): state changed no lease
+12:47:29 PM avahi-daemon: Leaving mDNS multicast group on interface enxb619741aab4e.IPv6 with address fe80::45b3:fb88:e1a6:467b.
+12:47:29 PM NetworkManager: <info>  [1685344649.2378] dhcp4 (enxb619741aab4e): activation: beginning transaction (timeout in 45 seconds)
+12:47:29 PM avahi-daemon: Withdrawing address record for fe80::45b3:fb88:e1a6:467b on enxb619741aab4e.
+12:47:29 PM NetworkManager: <info>  [1685344649.2377] dhcp4 (enxb619741aab4e): canceled DHCP transaction
+12:47:29 PM avahi-daemon: Registering new address record for fe80::45b3:fb88:e1a6:467b on enxb619741aab4e.*.
+12:47:29 PM NetworkManager: <info>  [1685344649.2361] device (enxb619741aab4e): state change: deactivating -> disconnected (reason 'user-requested', sys-iface-state: 'managed')
+12:47:29 PM systemd: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+12:47:29 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+12:47:29 PM systemd: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+12:47:29 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.16' (uid=0 pid=751 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+12:47:29 PM NetworkManager: <info>  [1685344649.1947] audit: op="device-disconnect" interface="enxb619741aab4e" ifindex=4 pid=2176 uid=1000 result="success"
+12:47:29 PM wpa_supplicant: wlp4s0: Reject scan trigger since one is already pending
+12:47:20 PM gnome-shell: Window manager warning: Ping serial 108009 was reused for window 0x1600003, previous use was for window 0x160001a.
+12:47:17 PM cat: [5096:5096:0529/124717.724658:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+12:47:17 PM kernel: [drm] VCE initialized successfully.
+12:47:16 PM gnome-keyring-d: asked to register item /org/freedesktop/secrets/collection/login/2, but it's already registered
+12:47:16 PM cat: [0529/124716.036635:ERROR:file_io_posix.cc(152)] open /home/dani/.config/google-chrome/Crash Reports/pending/f20b93c9-6187-4769-81ac-c5acff8df4b2.lock: File exists (17)
+12:47:16 PM systemd: Started app-gnome-google\x2dchrome-5096.scope - Application launched by gnome-shell.
+12:47:15 PM kernel: acer_wmi: Unknown function number - 8 - 1
+12:47:10 PM systemd: Started app-gnome-update\x2dnotifier-5063.scope - Application launched by gnome-session-binary.
+12:47:08 PM kernel: acer_wmi: Unknown function number - 8 - 0
+12:47:03 PM NetworkManager: <info>  [1685344623.0750] manager: startup complete
+12:47:02 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+12:47:00 PM systemd: Started bolt.service - Thunderbolt system service.
+12:47:00 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.bolt'
+12:47:00 PM boltd: udev: enumerating devices
+12:47:00 PM systemd: Starting bolt.service - Thunderbolt system service...
+12:47:00 PM gnome-shell: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+12:47:00 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.bolt' unit='bolt.service' requested by ':1.105' (uid=1000 pid=5016 comm="/usr/bin/gnome-control-center power" label="unconfined")
+12:47:00 PM code: [90m[main 2023-05-29T07:17:00.632Z][0m update#setState idle
+12:47:00 PM wpa_supplicant: wlp4s0: Reject scan trigger since one is already pending
+12:47:00 PM code: [90m[main 2023-05-29T07:17:00.549Z][0m update#setState checking for updates
+12:47:00 PM systemd: Started systemd-hostnamed.service - Hostname Service.
+12:47:00 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+12:47:00 PM systemd: Starting systemd-hostnamed.service - Hostname Service...
+12:47:00 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.105' (uid=1000 pid=5016 comm="/usr/bin/gnome-control-center power" label="unconfined")
+12:47:00 PM systemd: Started app-gnome-gnome\x2dpower\x2dpanel-5016.scope - Application launched by gnome-shell.
+12:46:59 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+12:46:59 PM NetworkManager: <info>  [1685344619.0820] device (p2p-dev-wlp4s0): supplicant management interface state: associated -> disconnected
+12:46:59 PM wpa_supplicant: wlp4s0: PMKSA-CACHE-REMOVED a2:ae:59:ac:82:7c 0
+12:46:59 PM NetworkManager: <info>  [1685344619.0467] device (wlp4s0): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+12:46:54 PM systemd: systemd-hostnamed.service: Deactivated successfully.
+12:46:54 PM kernel: wlp4s0: Limiting TX power to 23 (23 - 0) dBm as advertised by a2:ae:59:ac:82:7c
+12:46:54 PM NetworkManager: <info>  [1685344614.1819] device (p2p-dev-wlp4s0): supplicant management interface state: associating -> associated
+12:46:54 PM kernel: ath: regdomain 0x8164 dynamically updated by country element
+12:46:54 PM kernel: wlp4s0: associated
+12:46:54 PM NetworkManager: <info>  [1685344614.1690] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> associating
+12:46:54 PM kernel: wlp4s0: associate with a2:ae:59:ac:82:7c (try 1/3)
+12:46:54 PM NetworkManager: <info>  [1685344614.1661] device (p2p-dev-wlp4s0): supplicant management interface state: scanning -> authenticating
+12:46:54 PM kernel: wlp4s0: authenticate with a2:ae:59:ac:82:7c
+12:46:49 PM snapd: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core18", "core20", "core22", "firefox", "gnome-42-2204", "gtk-common-themes", "qt515-core20", "snap-store", "snapd", "snapd-desktop-integration", "telegram-desktop"
+12:46:49 PM NetworkManager: <info>  [1685344609.2383] device (p2p-dev-wlp4s0): supplicant management interface state: disconnected -> scanning
+12:46:49 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+12:46:47 PM packagekitd: get-details transaction /394_cdbddeee from uid 1000 finished with success after 1100ms
+12:46:46 PM systemd: Finished apt-news.service - Update APT News.
+12:46:46 PM snap-store: not handling error failed for action refresh: E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/lunar/InRelease  
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/lunar-updates/InRelease  
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/lunar-backports/InRelease  
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/lunar-security/InRelease  
+E: Failed to fetch https://dl.google.com/linux/chrome/deb/dists/stable/InRelease  
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+
+12:46:46 PM packagekitd: refresh-cache transaction /392_ebddecec from uid 1000 finished with cancelled-priority after 476ms
+12:46:46 PM systemd: Starting esm-cache.service - Update the local ESM caches...
+12:46:46 PM snap-store: unhandled property 'Sender'
+12:46:46 PM packagekitd: resolve transaction /393_bbbaceec from uid 1000 finished with success after 328ms
+12:46:42 PM systemd: whoopsie.service: Deactivated successfully.
+12:46:42 PM whoopsie: [12:46:42] Using lock path: /var/lock/whoopsie/lock
+12:46:42 PM systemd: Finished apport-autoreport.service - Process error reports when automatic reporting is enabled.
+12:46:42 PM whoopsie-upload: INFO:root:All reports uploaded successfully
+12:46:42 PM packagekitd: search-file transaction /382_dbeaabdd from uid 1000 finished with success after 470ms
+12:46:42 PM systemd: whoopsie.service: Deactivated successfully.
+12:46:42 PM whoopsie: [12:46:42] Reported OOPS ID c232d80a-fdf0-11ed-a20d-fa163e993415
+12:46:42 PM packagekitd: search-file transaction /381_dedddbec from uid 1000 finished with success after 403ms
+12:46:40 PM systemd: systemd-localed.service: Deactivated successfully.
+12:46:40 PM packagekitd: search-file transaction /377_eedcbcbc from uid 1000 finished with success after 384ms
+12:46:39 PM gnome-software: Failed to reload changed app filter: App filtering is globally disabled
+12:46:39 PM snap-store: atk-bridge: get_device_events_reply: unknown signature
+12:46:39 PM packagekitd: search-file transaction /374_adacabba from uid 1000 finished with success after 390ms
+12:46:39 PM kernel: wlp4s0: Limiting TX power to 23 (23 - 0) dBm as advertised by a2:ae:59:ac:82:7c
+12:46:39 PM NetworkManager: <info>  [1685344599.0811] device (p2p-dev-wlp4s0): supplicant management interface state: associating -> associated
+12:46:39 PM kernel: ath: regdomain 0x8164 dynamically updated by country element
+12:46:39 PM kernel: wlp4s0: associated
+12:46:39 PM NetworkManager: <info>  [1685344599.0663] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> associating
+12:46:39 PM wpa_supplicant: wlp4s0: Trying to associate with a2:ae:59:ac:82:7c (SSID='DANIEL\xe2\x80\x99s iPhone' freq=5745 MHz)
+12:46:38 PM NetworkManager: <info>  [1685344598.9936] device (p2p-dev-wlp4s0): supplicant management interface state: scanning -> authenticating
+12:46:38 PM kernel: wlp4s0: send auth to a2:ae:59:ac:82:7c (try 1/3)
+12:46:38 PM whoopsie: [12:46:38] Uploading /var/crash/_opt_google_chrome_chrome.1000.crash.
+12:46:38 PM packagekitd: search-file transaction /373_acbdccdd from uid 1000 finished with success after 641ms
+12:46:38 PM systemd: Startup finished in 5.189s (firmware) + 4.730s (loader) + 2.711s (kernel) + 1min 3.897s (userspace) = 1min 16.527s.
+12:46:38 PM whoopsie: [12:46:38] Parsing /var/crash/_opt_google_chrome_chrome.1000.crash.
+12:46:38 PM systemd: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+12:46:38 PM whoopsie: [12:46:38] Using lock path: /var/lock/whoopsie/lock
+12:46:38 PM systemd: Reached target graphical.target - Graphical Interface.
+12:46:38 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+12:46:38 PM packagekitd: search-file transaction /372_bbededac from uid 1000 finished with success after 498ms
+12:46:36 PM snapd-desktop-i: atk-bridge: get_device_events_reply: unknown signature
+12:46:36 PM packagekitd: search-file transaction /369_bcccacdc from uid 1000 finished with success after 620ms
+12:46:34 PM NetworkManager: <info>  [1685344594.0923] device (p2p-dev-wlp4s0): supplicant management interface state: disconnected -> scanning
+12:46:34 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+12:46:34 PM NetworkManager: <info>  [1685344594.0728] Config: added 'psk' value '<hidden>'
+12:46:34 PM wpa_supplicant: wlp4s0: CTRL-EVENT-DISCONNECTED bssid=a2:ae:59:ac:82:7c reason=3 locally_generated=1
+12:46:34 PM NetworkManager: <info>  [1685344594.0468] device (wlp4s0): Activation: (wifi) connection 'DANIEL’s iPhone' has security, and secrets exist.  No new secrets needed.
+12:46:34 PM packagekitd: search-file transaction /365_ccdbccde from uid 1000 finished with success after 507ms
+12:46:31 PM snapd: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core18", "core20", "core22", "firefox", "gnome-42-2204", "gtk-common-themes", "qt515-core20", "snap-store", "snapd", "snapd-desktop-integration", "telegram-desktop"
+12:46:31 PM snap-store: unhandled property 'Sender'
+12:46:31 PM packagekitd: search-file transaction /359_abaeeccd from uid 1000 finished with success after 474ms
+12:46:31 PM snapd: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core18", "core20", "core22", "firefox", "gnome-42-2204", "gtk-common-themes", "qt515-core20", "snap-store", "snapd", "snapd-desktop-integration", "telegram-desktop"
+12:46:30 PM snap-store: Tried to set invalid release date: 2022
+12:46:30 PM packagekitd: search-file transaction /358_cddaeecc from uid 1000 finished with success after 464ms
+12:46:30 PM code: [90m[main 2023-05-29T07:16:30.544Z][0m update#setState idle
+12:46:30 PM systemd: Reached target gnome-session-x11-services-ready.target - GNOME session X11 services.
+12:46:30 PM packagekitd: search-file transaction /357_bdddccdd from uid 1000 finished with success after 399ms
+12:46:30 PM snapd: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core18", "core20", "core22", "firefox", "gnome-42-2204", "gtk-common-themes", "qt515-core20", "snap-store", "snapd", "snapd-desktop-integration", "telegram-desktop"
+12:46:29 PM systemd: Starting org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service...
+12:46:29 PM xkbcomp: Errors from xkbcomp are not fatal to the X server
+12:46:29 PM systemd: Reached target gnome-session-x11-services.target - GNOME session X11 services.
+12:46:29 PM kernel: [drm] VCE initialized successfully.
+12:46:29 PM packagekitd: search-file transaction /356_ebcdbaaa from uid 1000 finished with success after 598ms
+12:46:29 PM kernel: [drm] PCIE GART of 256M enabled (table at 0x000000F400000000).
+12:46:29 PM packagekitd: resolve transaction /355_cabbdeed from uid 1000 finished with success after 1016ms
+12:46:28 PM systemd: Started app-gnome-code-4241.scope - Application launched by gnome-shell.
+12:46:28 PM snapd: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "core18", "core20", "core22", "firefox", "gnome-42-2204", "gtk-common-themes", "qt515-core20", "snap-store", "snapd", "snapd-desktop-integration", "telegram-desktop"
+12:46:28 PM packagekitd: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+12:46:28 PM snap-store: unhandled property 'Sender'
+12:46:28 PM packagekitd: refresh-cache transaction /354_ebeeebab from uid 1000 finished with cancelled-priority after 2167ms
+12:46:27 PM gnome-software: Tried to set invalid release date: 2022
+12:46:26 PM systemd: Finished esm-cache.service - Update the local ESM caches.
+12:46:26 PM snap-store: Only 0 apps for recent list, hiding
+12:46:26 PM kernel: audit: type=1326 audit(1685344586.041:72): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=2738 comm="pool-org.gnome." exe="/snap/snap-store/959/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7f1795a84c4b code=0x50000
+12:46:26 PM pool-org.gnome.: SECCOMP auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=2738 comm="pool-org.gnome." exe="/snap/snap-store/959/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7f1795a84c4b code=0x50000
+12:46:25 PM packagekitd: resolve transaction /353_bceadada from uid 1000 finished with success after 354ms
+12:46:24 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.DiskUtility'
+12:46:24 PM gnome-shell: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+12:46:24 PM dbus-daemon: [session uid=1000 pid=2010] Activating service name='org.gnome.DiskUtility' requested by ':1.109' (uid=1000 pid=3820 comm="/usr/bin/nautilus --gapplication-service" label="unconfined")
+12:46:24 PM packagekitd: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+12:46:24 PM snap-store: unhandled property 'Sender'
+12:46:24 PM packagekitd: refresh-cache transaction /351_eaaabddd from uid 1000 finished with cancelled-priority after 2381ms
+12:46:24 PM kernel: wlp4s0: Limiting TX power to 23 (23 - 0) dBm as advertised by a2:ae:59:ac:82:7c
+12:46:24 PM NetworkManager: <info>  [1685344584.1933] device (p2p-dev-wlp4s0): supplicant management interface state: associating -> associated
+12:46:24 PM kernel: ath: regdomain 0x8164 dynamically updated by country element
+12:46:24 PM kernel: wlp4s0: associated
+12:46:24 PM NetworkManager: <info>  [1685344584.1803] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> associating
+12:46:24 PM wpa_supplicant: wlp4s0: Trying to associate with a2:ae:59:ac:82:7c (SSID='DANIEL\xe2\x80\x99s iPhone' freq=5745 MHz)
+12:46:24 PM NetworkManager: <info>  [1685344584.1773] device (p2p-dev-wlp4s0): supplicant management interface state: disconnected -> authenticating
+12:46:24 PM kernel: wlp4s0: send auth to a2:ae:59:ac:82:7c (try 1/3)
+12:46:24 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.Nautilus'
+12:46:24 PM nautilus: Connecting to org.freedesktop.Tracker3.Miner.Files
+12:46:24 PM kernel: wlp4s0: authenticate with a2:ae:59:ac:82:7c
+12:46:24 PM dbus-daemon: [session uid=1000 pid=2010] Activating service name='org.gnome.Nautilus' requested by ':1.32' (uid=1000 pid=2176 comm="/usr/bin/gnome-shell" label="unconfined")
+12:46:23 PM systemd: Finished apt-news.service - Update APT News.
+12:46:23 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+12:46:23 PM systemd: Starting esm-cache.service - Update the local ESM caches...
+12:46:21 PM packagekitd: refresh-cache transaction /350_aacaccec from uid 1000 finished with success after 9108ms
+12:46:21 PM systemd: user-120.slice: Consumed 5.979s CPU time.
+12:46:21 PM wireplumber: disconnected from pipewire
+12:46:21 PM systemd: Stopping wireplumber.service - Multimedia Service Session Manager...
+12:46:19 PM NetworkManager: <info>  [1685344579.2504] device (p2p-dev-wlp4s0): supplicant management interface state: associated -> disconnected
+12:46:19 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+12:46:14 PM packagekitd: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+12:46:14 PM snap-store: lost session service
+12:46:14 PM packagekitd: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+12:46:14 PM snap-store: unhandled property 'Sender'
+12:46:14 PM kernel: audit: type=1400 audit(1685344574.361:71): apparmor="DENIED" operation="open" class="file" profile="snap.snap-store.ubuntu-software" name="/etc/appstream.conf" pid=2738 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+12:46:14 PM snap-store: AVC apparmor="DENIED" operation="open" class="file" profile="snap.snap-store.ubuntu-software" name="/etc/appstream.conf" pid=2738 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+12:46:14 PM kernel: audit: type=1107 audit(1685344574.067:70): pid=657 uid=100 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.3" pid=2738 label="snap.snap-store.ubuntu-software" peer_pid=668 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=100 hostname=? addr=? terminal=?'
+12:46:14 PM snap-store: disabled plugins: dpkg, dummy, fedora-langpacks, fedora-pkgdb-collections, repos
+12:46:14 PM kernel: USER_AVC pid=657 uid=100 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.3" pid=2738 label="snap.snap-store.ubuntu-software" peer_pid=668 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=100 hostname=? addr=? terminal=?'
+12:46:14 PM kernel: audit: type=1107 audit(1685344574.063:68): pid=657 uid=100 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.3" pid=2738 label="snap.snap-store.ubuntu-software" peer_pid=668 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=100 hostname=? addr=? terminal=?'
+12:46:14 PM kernel: USER_AVC pid=657 uid=100 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.3" pid=2738 label="snap.snap-store.ubuntu-software" peer_pid=668 peer_label="unconfined"
+ exe="/usr/bin/dbus-daemon" sauid=100 hostname=? addr=? terminal=?'
+12:46:14 PM snap-store: plugin appstream took 1.4 seconds to do setup
+12:46:14 PM kernel: audit: type=1326 audit(1685344574.027:66): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=2738 comm="snap-store" exe="/snap/snap-store/959/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7f1795a84c4b code=0x50000
+12:46:14 PM snap-store: SECCOMP auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=2738 comm="snap-store" exe="/snap/snap-store/959/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7f1795a84c4b code=0x50000
+12:46:13 PM systemd: Finished apt-news.service - Update APT News.
+12:46:12 PM packagekitd: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+12:46:12 PM gnome-software: disabled plugins: dpkg, dummy, repos, epiphany, malcontent
+12:46:12 PM systemd: Started fwupd.service - Firmware update daemon.
+12:46:12 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.fwupd'
+12:46:12 PM systemd: fprintd.service: Deactivated successfully.
+12:46:12 PM gnome-shell: DING: DBus interface for File-roller (org.gnome.ArchiveManager1) is now available.
+12:46:12 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.ArchiveManager1'
+12:46:11 PM gnome-shell: Received notification for window. 0 notifications remaining.
+12:46:11 PM systemd: Started dconf.service - User preferences database.
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'ca.desrt.dconf'
+12:46:11 PM systemd: apport-autoreport.service: Consumed 2.551s CPU time.
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.98' (uid=1000 pid=3032 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+12:46:11 PM systemd: Starting dconf.service - User preferences database...
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Activating service name='org.gnome.ArchiveManager1' requested by ':1.98' (uid=1000 pid=3032 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+12:46:11 PM systemd: Started gvfs-metadata.service - Virtual filesystem metadata service.
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gtk.vfs.Metadata'
+12:46:11 PM systemd: Starting gvfs-metadata.service - Virtual filesystem metadata service...
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.96' (uid=1000 pid=2980 comm="/usr/libexec/tracker-extract-3" label="unconfined")
+12:46:11 PM polkitd: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+12:46:11 PM tracker-extract: XML parsing failure
+12:46:11 PM snapd-desktop-i: All available theme snaps installed
+
+12:46:11 PM systemd: Started tracker-extract-3.service - Tracker metadata extractor.
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+12:46:11 PM systemd: Starting fwupd.service - Firmware update daemon...
+12:46:11 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.90' (uid=1000 pid=2635 comm="/usr/bin/gnome-software --gapplication-service" label="unconfined")
+12:46:11 PM gdm3: Gdm: Child process -1303 was already dead.
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Activating service name='org.gnome.DiskUtility' requested by ':1.52' (uid=1000 pid=2538 comm="/usr/bin/nautilus --gapplication-service" label="unconfined")
+12:46:11 PM systemd-logind: Removed session c1.
+12:46:11 PM systemd: session-c1.scope: Consumed 4.484s CPU time.
+12:46:11 PM systemd-logind: Session c1 logged out. Waiting for processes to exit.
+12:46:11 PM gdm-session-wor: pam_unix(gdm-launch-environment:session): session closed for user gdm
+12:46:11 PM dbus-daemon: dbus-daemon[1310]: [session uid=120 pid=1310] Activating service name='org.freedesktop.systemd1' requested by ':1.11' (uid=120 pid=1718 comm="/usr/libexec/gsd-sharing" label="unconfined")
+12:46:11 PM gnome-shell: Launching DING process
+12:46:11 PM systemd: Started xdg-desktop-portal.service - Portal service.
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.freedesktop.portal.Desktop'
+12:46:11 PM systemd: Started xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+12:46:11 PM systemd: Starting tracker-extract-3.service - Tracker metadata extractor...
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.90' (uid=1000 pid=2882 comm="/usr/libexec/tracker-miner-fs-3" label="unconfined")
+12:46:11 PM gnome-shell: Unhandled promise rejection. To suppress this warning, add an error handler to your promise chain with .catch() or a try-catch block around your await expression. Stack trace of the failed promise:
+  _onMountAdded@resource:///org/gnome/shell/ui/components/autorunManager.js:146:24
+
+12:46:11 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.Shell.HotplugSniffer'
+12:46:11 PM kernel: audit: type=1326 audit(1685344571.087:65): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=2738 comm="snap-store" exe="/snap/snap-store/959/usr/bin/snap-store" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f1795a8da3d code=0x50000
+12:46:11 PM snap-store: SECCOMP auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=2738 comm="snap-store" exe="/snap/snap-store/959/usr/bin/snap-store" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f1795a8da3d code=0x50000
+12:46:10 PM systemd: Started tracker-miner-fs-3.service - Tracker file system data miner.
+12:46:10 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.ScreenSaver'
+12:46:10 PM systemd: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+12:46:10 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.44' (uid=1000 pid=2433 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+12:46:10 PM rtkit-daemon: Supervising 12 threads of 6 processes of 2 users.
+12:46:10 PM gsd-media-keys: Failed to grab accelerator for keybinding settings:playback-repeat
+12:46:10 PM dbus-daemon: [session uid=1000 pid=2010] Activating service name='org.gnome.ScreenSaver' requested by ':1.67' (uid=1000 pid=2592 comm="/usr/libexec/gsd-power" label="unconfined")
+12:46:10 PM systemd: Started xdg-desktop-portal-gnome.service - Portal service (GNOME implementation).
+12:46:10 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+12:46:10 PM geoclue: unable to create directory '/var/lib/geoclue/.cache/dconf': Read-only file system.  dconf will not work properly.
+12:46:10 PM systemd: Starting tracker-miner-fs-3.service - Tracker file system data miner...
+12:46:10 PM gnome-shell: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+12:46:10 PM systemd: Reached target org.gnome.SettingsDaemon.PrintNotifications.target - GNOME printer notifications target.
+12:46:10 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.Shell.Screencast'
+12:46:10 PM gnome-shell: Failed to query file info on '/home/dani/.local/share/icc/.goutputstream-L2GK51': Error when getting information for file “/home/dani/.local/share/icc/.goutputstream-L2GK51”: No such file or directory
+12:46:10 PM systemd: tmp-snap.rootfs_JL6K35.mount: Deactivated successfully.
+12:46:10 PM kernel: audit: type=1400 audit(1685344570.310:64): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19122/usr/lib/snapd/snap-confine" pid=2738 comm="snap-confine" capability=38  capname="perfmon"
+12:46:10 PM snap-confine: AVC apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19122/usr/lib/snapd/snap-confine" pid=2738 comm="snap-confine" capability=38  capname="perfmon"
+12:46:10 PM systemd: Started snap.snap-store.ubuntu-software.9443402e-9722-4daf-8e2f-a8d14d0f7bd5.scope.
+12:46:10 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.freedesktop.portal.IBus'
+12:46:10 PM systemd: Started org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME.
+12:46:10 PM dbus-daemon: [session uid=1000 pid=2010] Activating service name='org.freedesktop.portal.IBus' requested by ':1.70' (uid=1000 pid=2579 comm="/usr/bin/ibus-daemon --panel disable" label="unconfined")
+12:46:10 PM systemd: Started org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service.
+12:46:10 PM kernel: rfkill: input handler disabled
+12:46:10 PM at-spi2-registr: Unable to register client with session manager
+12:46:10 PM gnome-session-b: Entering running state
+12:46:10 PM systemd: Reached target org.gnome.SettingsDaemon.A11ySettings.target - GNOME accessibility target.
+12:46:10 PM NetworkManager: <info>  [1685344570.1932] agent-manager: agent[03ff077c74146a8e,:1.68/org.gnome.Shell.NetworkAgent/1000]: agent registered
+12:46:10 PM systemd: Reached target org.gnome.SettingsDaemon.ScreensaverProxy.target - GNOME FreeDesktop screensaver target.
+12:46:10 PM spice-vdagent: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+12:46:10 PM systemd: Started app-gnome-spice\x2dvdagent-2594.scope - Application launched by gnome-session-binary.
+12:46:10 PM kernel: [drm] VCE initialized successfully.
+12:46:09 PM kernel: wlp4s0: Limiting TX power to 23 (23 - 0) dBm as advertised by a2:ae:59:ac:82:7c
+12:46:09 PM NetworkManager: <info>  [1685344569.2159] device (p2p-dev-wlp4s0): supplicant management interface state: associating -> associated
+12:46:09 PM kernel: ath: regdomain 0x8164 dynamically updated by country element
+12:46:09 PM kernel: wlp4s0: associated
+12:46:09 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.freedesktop.FileManager1'
+12:46:09 PM at-spi2-registr: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+12:46:09 PM dbus-daemon: dbus-daemon[2179]: Successfully activated service 'org.a11y.atspi.Registry'
+12:46:09 PM nautilus: Connecting to org.freedesktop.Tracker3.Miner.Files
+12:46:09 PM kernel: wlp4s0: authenticated
+12:46:09 PM dbus-daemon: dbus-daemon[2179]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=2176 comm="/usr/bin/gnome-shell" label="unconfined")
+12:46:09 PM NetworkManager: <info>  [1685344569.2004] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> associating
+12:46:09 PM wpa_supplicant: wlp4s0: Trying to associate with a2:ae:59:ac:82:7c (SSID='DANIEL\xe2\x80\x99s iPhone' freq=5745 MHz)
+12:46:09 PM dbus-daemon: [session uid=1000 pid=2010] Activating service name='org.freedesktop.FileManager1' requested by ':1.32' (uid=1000 pid=2176 comm="/usr/bin/gnome-shell" label="unconfined")
+12:46:09 PM kernel: wlp4s0: send auth to a2:ae:59:ac:82:7c (try 1/3)
+12:46:09 PM NetworkManager: <info>  [1685344569.1272] device (p2p-dev-wlp4s0): supplicant management interface state: disconnected -> authenticating
+12:46:09 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.Shell.Notifications'
+12:46:09 PM kernel: wlp4s0: authenticate with a2:ae:59:ac:82:7c
+12:46:09 PM NetworkManager: <info>  [1685344569.0702] device (p2p-dev-wlp4s0): supplicant management interface state: associated -> disconnected
+12:46:09 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+12:46:09 PM NetworkManager: <info>  [1685344569.0650] Config: added 'psk' value '<hidden>'
+12:46:09 PM wpa_supplicant: wlp4s0: CTRL-EVENT-DSCP-POLICY clear_all
+12:46:09 PM NetworkManager: <info>  [1685344569.0650] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+12:46:09 PM wpa_supplicant: wlp4s0: CTRL-EVENT-DISCONNECTED bssid=a2:ae:59:ac:82:7c reason=3 locally_generated=1
+12:46:09 PM NetworkManager: <info>  [1685344569.0649] Config: added 'scan_ssid' value '1'
+12:46:09 PM kernel: wlp4s0: deauthenticating from a2:ae:59:ac:82:7c by local choice (Reason: 3=DEAUTH_LEAVING)
+12:46:09 PM NetworkManager: <warn>  [1685344569.0444] device (wlp4s0): Activation: (wifi) asking for new secrets
+12:46:09 PM dbus-daemon: [session uid=1000 pid=2010] Activating service name='org.gnome.Shell.Notifications' requested by ':1.32' (uid=1000 pid=2176 comm="/usr/bin/gnome-shell" label="unconfined")
+12:46:08 PM systemd: Started gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+12:46:08 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+12:46:08 PM systemd: Starting gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+12:46:08 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.32' (uid=1000 pid=2176 comm="/usr/bin/gnome-shell" label="unconfined")
+12:46:08 PM systemd: Started gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+12:46:08 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+12:46:08 PM systemd: Starting gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+12:46:08 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.32' (uid=1000 pid=2176 comm="/usr/bin/gnome-shell" label="unconfined")
+12:46:08 PM systemd: Started gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+12:46:08 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+12:46:08 PM systemd: Starting gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+12:46:08 PM systemd-timesyn: Initial clock synchronization to Mon 2023-05-29 12:46:09.044368 IST.
+12:46:08 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.32' (uid=1000 pid=2176 comm="/usr/bin/gnome-shell" label="unconfined")
+12:46:08 PM systemd: Started gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+12:46:08 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+12:46:05 PM systemd: systemd-fsckd.service: Deactivated successfully.
+12:46:04 PM kernel: wlp4s0: Limiting TX power to 23 (23 - 0) dBm as advertised by a2:ae:59:ac:82:7c
+12:46:04 PM NetworkManager: <info>  [1685344564.2342] device (p2p-dev-wlp4s0): supplicant management interface state: associating -> associated
+12:46:04 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=IN
+12:46:04 PM kernel: ath: regdomain 0x8164 dynamically updated by country element
+12:46:04 PM kernel: wlp4s0: associated
+12:46:04 PM NetworkManager: <info>  [1685344564.2176] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> associating
+12:46:04 PM kernel: wlp4s0: authenticated
+12:46:04 PM NetworkManager: <info>  [1685344564.2145] device (p2p-dev-wlp4s0): supplicant management interface state: scanning -> authenticating
+12:46:04 PM kernel: wlp4s0: authenticate with a2:ae:59:ac:82:7c
+12:46:03 PM systemd-journal: Forwarding to syslog missed 325 messages.
+12:46:03 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+12:46:01 PM whoopsie-upload: INFO:root:  missing (remaining: 0 s): /var/crash/_opt_google_chrome_chrome.1000.uploaded
+12:45:59 PM NetworkManager: <info>  [1685344559.3035] device (p2p-dev-wlp4s0): supplicant management interface state: disconnected -> scanning
+12:45:59 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+12:45:59 PM kernel: amdgpu: PSPP request to switch to Gen1 from Gen2 Failed!
+12:45:59 PM wpa_supplicant: wlp4s0: Authentication with a2:ae:59:ac:82:7c timed out.
+12:45:53 PM systemd: NetworkManager-dispatcher.service: Deactivated successfully.
+12:45:52 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gnome' unit='xdg-desktop-portal-gnome.service' requested by ':1.44' (uid=1000 pid=2433 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+12:45:52 PM systemd: Starting xdg-desktop-portal.service - Portal service...
+12:45:52 PM kernel: audit: type=1326 audit(1685344552.104:62): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=2429 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f9fd3cbca3d code=0x50000
+12:45:52 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.43' (uid=1000 pid=2429 comm="/snap/snapd-desktop-integration/83/usr/bin/snapd-d" label="snap.snapd-desktop-integration.snapd-desktop-integration (enforce)")
+12:45:52 PM snapd-desktop-i: SECCOMP auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=2429 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f9fd3cbca3d code=0x50000
+12:45:51 PM systemd: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+12:45:51 PM whoopsie-upload: INFO:root:  missing (remaining: 10 s): /var/crash/_opt_google_chrome_chrome.1000.uploaded
+12:45:50 PM systemd: Started evolution-addressbook-factory.service - Evolution address book service.
+12:45:50 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+12:45:50 PM systemd: Starting evolution-addressbook-factory.service - Evolution address book service...
+12:45:50 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.40' (uid=1000 pid=2311 comm="/usr/libexec/evolution-calendar-factory" label="unconfined")
+12:45:50 PM systemd: Started evolution-calendar-factory.service - Evolution calendar service.
+12:45:50 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+12:45:50 PM systemd: Starting gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+12:45:50 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.32' (uid=1000 pid=2176 comm="/usr/bin/gnome-shell" label="unconfined")
+12:45:50 PM systemd: Started gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+12:45:50 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+12:45:50 PM systemd: Starting evolution-calendar-factory.service - Evolution calendar service...
+12:45:50 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.Shell.CalendarServer'
+12:45:50 PM goa-daemon: goa-daemon version 3.48.0 starting
+12:45:50 PM systemd: Started evolution-source-registry.service - Evolution source registry.
+12:45:50 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+12:45:50 PM systemd: Starting gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+12:45:50 PM dbus-daemon: [session uid=1000 pid=2010] Activating service name='org.gnome.OnlineAccounts' requested by ':1.36' (uid=1000 pid=2272 comm="/usr/libexec/evolution-source-registry" label="unconfined")
+12:45:50 PM gnome-shell: Telepathy is not available, chat integration will be disabled.
+12:45:50 PM polkitd: Registered Authentication Agent for unix-session:2 (system bus name :1.68 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+12:45:50 PM systemd: Starting evolution-source-registry.service - Evolution source registry...
+12:45:50 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.35' (uid=1000 pid=2265 comm="/usr/libexec/gnome-shell-calendar-server" label="unconfined")
+12:45:50 PM gnome-shell: Will monitor session 2
+12:45:49 PM snapd-desktop-i: Loop exited. Forcing reload.
+12:45:49 PM kernel: [drm] VCE initialized successfully.
+12:45:49 PM kernel: wlp4s0: Limiting TX power to 23 (23 - 0) dBm as advertised by a2:ae:59:ac:82:7c
+12:45:49 PM kernel: audit: type=1326 audit(1685344549.216:61): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=2213 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7fe0d8341a3d code=0x50000
+12:45:49 PM kernel: kauditd_printk_skb: 49 callbacks suppressed
+12:45:49 PM snapd-desktop-i: SECCOMP auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=2213 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7fe0d8341a3d code=0x50000
+12:45:49 PM NetworkManager: <info>  [1685344549.1565] device (p2p-dev-wlp4s0): supplicant management interface state: associating -> associated
+12:45:49 PM kernel: ath: regdomain 0x8164 dynamically updated by country element
+12:45:49 PM kernel: wlp4s0: associated
+12:45:49 PM NetworkManager: <info>  [1685344549.1421] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> associating
+12:45:49 PM wpa_supplicant: wlp4s0: Trying to associate with a2:ae:59:ac:82:7c (SSID='DANIEL\xe2\x80\x99s iPhone' freq=5745 MHz)
+12:45:49 PM NetworkManager: <info>  [1685344549.0694] device (p2p-dev-wlp4s0): supplicant management interface state: scanning -> authenticating
+12:45:49 PM kernel: wlp4s0: authenticate with a2:ae:59:ac:82:7c
+12:45:48 PM wireplumber: <WpPortalPermissionStorePlugin:0x562b0eeac3e0> Failed to call Lookup: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for camera
+12:45:48 PM bluetoothd: Endpoint registered: sender=:1.65 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+12:45:48 PM wireplumber: Trying to use legacy bluez5 API for LE Audio - only A2DP will be supported. Please upgrade bluez5.
+12:45:48 PM gnome-shell: Running GNOME Shell (using mutter 44.0) as a Wayland display server
+12:45:48 PM systemd: Condition check resulted in org.gnome.Shell@x11.service - GNOME Shell on X11 being skipped.
+12:45:48 PM gnome-session-b: GnomeDesktop-WARNING: Could not create transient scope for PID 2168: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2168 does not exist.
+12:45:48 PM systemd: Started gnome-session-manager@ubuntu.service - GNOME Session Manager (session: ubuntu).
+12:45:48 PM gnome-keyring-d: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+12:45:48 PM systemd: Starting gnome-session-manager@ubuntu.service - GNOME Session Manager (session: ubuntu)...
+12:45:48 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.gtk.vfs.Daemon'
+12:45:48 PM systemd: Starting gvfs-daemon.service - Virtual filesystem service...
+12:45:48 PM ssh-agent: echo Agent pid 2127;
+12:45:48 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.17' (uid=1000 pid=2131 comm="/usr/libexec/xdg-desktop-portal-rewrite-launchers" label="unconfined")
+12:45:48 PM kernel: dbus-update-activation-environment: setting SSH_AGENT_LAUNCHER=openssh
+12:45:48 PM systemd: Finished session-migration.service - Session Migration.
+12:45:48 PM bluetoothd: Endpoint unregistered: sender=:1.35 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+12:45:48 PM gsd-media-keys: Unable to get default sink
+12:45:48 PM bluetoothd: Endpoint unregistered: sender=:1.35 path=/MediaEndpoint/A2DPSink/aptx
+12:45:48 PM kernel: rfkill: input handler enabled
+12:45:48 PM wireplumber: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+12:45:48 PM rtkit-daemon: Supervising 12 threads of 6 processes of 2 users.
+12:45:48 PM xdg-document-po: Ignoring invalid max threads value 4294967295 > max (100000).
+12:45:48 PM systemd: Started xdg-document-portal.service - flatpak document portal service.
+12:45:48 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.freedesktop.portal.Documents'
+12:45:48 PM systemd: Started xdg-permission-store.service - sandboxed app permission store.
+12:45:48 PM dbus-daemon: [session uid=1000 pid=2010] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+12:45:48 PM systemd: Starting xdg-permission-store.service - sandboxed app permission store...
+12:45:48 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.6' (uid=1000 pid=2028 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+12:45:48 PM systemd: Starting xdg-document-portal.service - flatpak document portal service...
+12:45:48 PM dbus-daemon: [session uid=1000 pid=2010] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.5' (uid=1000 pid=1989 comm="/usr/bin/snap run snapd-desktop-integration" label="unconfined")
+12:45:48 PM gdm-session-wor: gkr-pam: unlocked login keyring
+12:45:48 PM gnome-keyring-d: GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+12:45:48 PM wireplumber: found session bus but no portal
+12:45:48 PM pipewire-pulse: mod.rt: found session bus but no portal
+12:45:48 PM systemd: Started dbus.service - D-Bus User Message Bus.
+12:45:48 PM pipewire: mod.rt: found session bus but no portal
+12:45:48 PM dbus-daemon: [session uid=1000 pid=2010] AppArmor D-Bus mediation is enabled
+12:45:48 PM systemd: Started gnome-keyring-daemon.service - GNOME Keyring daemon.
+12:45:48 PM snapd-aa-prompt: AA Prompt UI not implemented
+12:45:48 PM systemd: Startup finished in 202ms.
+12:45:47 PM (systemd): pam_unix(systemd-user:session): session opened for user dani(uid=1000) by (uid=0)
+12:45:47 PM systemd: Starting user@1000.service - User Manager for UID 1000...
+12:45:47 PM systemd-logind: New session 2 of user dani.
+12:45:47 PM systemd: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+12:45:47 PM gdm-session-wor: pam_unix(gdm-password:session): session opened for user dani(uid=1000) by (uid=0)
+12:45:47 PM bluetoothd: src/profile.c:record_cb() Unable to get Hands-Free Voice gateway SDP record: Host is down
+12:45:46 PM kernel: acpi AMDI0010:01: Already enumerated
+12:45:44 PM avahi-daemon: Registering new address record for 2409:40f3:1c:4613:fdc6:c16d:696d:4866 on enxb619741aab4e.*.
+12:45:44 PM gnome-shell: JS ERROR: Gio.IOErrorEnum: GDBus.Error:net.reactivated.Fprint.Error.NoSuchDevice: No devices available
+asyncCallback@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:114:23
+
+12:45:44 PM NetworkManager: <info>  [1685344544.1476] device (p2p-dev-wlp4s0): supplicant management interface state: disconnected -> scanning
+12:45:43 PM systemd: dmesg.service: Deactivated successfully.
+12:45:43 PM wpa_supplicant: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+12:45:43 PM systemd-resolve: enxb619741aab4e: Bus client set DNS server list to: 172.20.10.1, fe80::b419:74ff:fea1:f464
+12:45:43 PM avahi-daemon: Withdrawing address record for fe80::45b3:fb88:e1a6:467b on enxb619741aab4e.
+12:45:43 PM NetworkManager: <info>  [1685344543.1098] dhcp6 (enxb619741aab4e): state changed new lease
+12:45:43 PM avahi-daemon: Joining mDNS multicast group on interface enxb619741aab4e.IPv6 with address 2409:40f3:1c:4613:d7b5:69a3:7d07:3d39.
+12:45:43 PM NetworkManager: <info>  [1685344543.1079] policy: set 'Wired connection 2' (enxb619741aab4e) as default for IPv6 routing and DNS
+12:45:43 PM systemd: systemd-rfkill.service: Deactivated successfully.
+12:45:42 PM gnome-shell: Registering session with GDM
+12:45:42 PM dbus-daemon: dbus-daemon[1310]: [session uid=120 pid=1310] Successfully activated service 'org.gnome.ScreenSaver'
+12:45:42 PM xkbcomp: Errors from xkbcomp are not fatal to the X server
+12:45:42 PM dbus-daemon: dbus-daemon[1310]: [session uid=120 pid=1310] Activating service name='org.gnome.ScreenSaver' requested by ':1.24' (uid=120 pid=1770 comm="/usr/libexec/gsd-power" label="unconfined")
+12:45:42 PM xbrlapi: cannot connect to braille devices daemon brltty at :0
+12:45:42 PM gsd-media-keys: Failed to grab accelerator for keybinding settings:hibernate
+12:45:42 PM gnome-session-b: Entering running state
+12:45:42 PM gnome-shell: JS ERROR: Gio.IOErrorEnum: GDBus.Error:net.reactivated.Fprint.Error.NoSuchDevice: No devices available
+asyncCallback@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:114:23
+
+12:45:42 PM kernel: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+12:45:42 PM systemd: Started fprintd.service - Fingerprint Authentication Daemon.
+12:45:42 PM dbus-daemon: [system] Successfully activated service 'net.reactivated.Fprint'
+12:45:42 PM gnome-shell: Failed to query file info on '/var/lib/gdm3/.local/share/icc/.goutputstream-CG4X51': Error when getting information for file “/var/lib/gdm3/.local/share/icc/.goutputstream-CG4X51”: No such file or directory
+12:45:42 PM systemd: Starting fprintd.service - Fingerprint Authentication Daemon...
+12:45:42 PM dbus-daemon: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.36' (uid=120 pid=1331 comm="/usr/bin/gnome-shell" label="unconfined")
+12:45:41 PM NetworkManager: <info>  [1685344541.9945] manager: NetworkManager state is now CONNECTED_GLOBAL
+12:45:41 PM dbus-daemon: dbus-daemon[1310]: [session uid=120 pid=1310] Successfully activated service 'org.gnome.Shell.Screencast'
+12:45:41 PM NetworkManager: <info>  [1685344541.9035] agent-manager: agent[d1c59a5983e2f804,:1.36/org.gnome.Shell.NetworkAgent/120]: agent registered
+12:45:41 PM dbus-daemon: dbus-daemon[1310]: [session uid=120 pid=1310] Successfully activated service 'org.freedesktop.portal.IBus'
+12:45:41 PM colord: CdMain: failed to emit DeviceAdded: failed to register object: An object is already exported for the interface org.freedesktop.ColorManager.Device at /org/freedesktop/ColorManager/devices/sysfs__null_
+12:45:41 PM gnome-shell: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+12:45:41 PM dbus-daemon: dbus-daemon[1310]: [session uid=120 pid=1310] Activating service name='org.freedesktop.portal.IBus' requested by ':1.25' (uid=120 pid=1769 comm="ibus-daemon --panel disable" label="unconfined")
+12:45:41 PM gsd-sharing: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+12:45:41 PM dbus-daemon: dbus-daemon[1310]: [session uid=120 pid=1310] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+12:45:41 PM kernel: rfkill: input handler disabled
+12:45:41 PM systemd: Started packagekit.service - PackageKit Daemon.
+12:45:41 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.PackageKit'
+12:45:41 PM systemd: Started colord.service - Manage, Install and Generate Color Profiles.
+12:45:41 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.ColorManager'
+12:45:41 PM gnome-shell: Window manager warning: Failed to parse saved session file: Failed to open file “/var/lib/gdm3/.config/mutter/sessions/109811f0d6e095914168534454012190100000013140000.ms”: No such file or directory
+12:45:41 PM dbus-daemon: dbus-daemon[1310]: [session uid=120 pid=1310] Successfully activated service 'org.gnome.Shell.Notifications'
+12:45:41 PM packagekitd: daemon start
+12:45:41 PM systemd: Starting colord.service - Manage, Install and Generate Color Profiles...
+12:45:41 PM geoclue: No feature manager for feature of type 'GProxyResolver'
+12:45:41 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+12:45:41 PM geoclue: No feature manager for feature of type 'GProxyResolver'
+12:45:41 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.36' (uid=120 pid=1331 comm="/usr/bin/gnome-shell" label="unconfined")
+12:45:41 PM at-spi2-registr: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+12:45:41 PM dbus-daemon: dbus-daemon[1582]: Successfully activated service 'org.a11y.atspi.Registry'
+12:45:41 PM gnome-shell: Extension ubuntu-dock@ubuntu.com already installed in /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com. /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com will not be loaded
+12:45:41 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.UPower'
+12:45:41 PM polkitd: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+12:45:41 PM systemd: Starting geoclue.service - Location Lookup Service...
+12:45:41 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.36' (uid=120 pid=1331 comm="/usr/bin/gnome-shell" label="unconfined")
+12:45:41 PM systemd: Starting upower.service - Daemon for power management...
+12:45:41 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.36' (uid=120 pid=1331 comm="/usr/bin/gnome-shell" label="unconfined")
+12:45:41 PM whoopsie-upload: INFO:root:  missing (remaining: 20 s): /var/crash/_opt_google_chrome_chrome.1000.uploaded
+12:45:41 PM systemd: Started systemd-localed.service - Locale Service.
+12:45:41 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.locale1'
+12:45:41 PM systemd: Starting systemd-localed.service - Locale Service...
+12:45:41 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.36' (uid=120 pid=1331 comm="/usr/bin/gnome-shell" label="unconfined")
+12:45:41 PM gnome-shell: Will monitor session c1
+12:45:41 PM ModemManager: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:01.7/0000:04:00.0': not supported by any plugin
+12:45:41 PM gnome-shell: Using Wayland display name 'wayland-0'
+12:45:41 PM NetworkManager: <info>  [1685344541.0736] device (enxb619741aab4e): Activation: successful, device activated.
+12:45:41 PM systemd-resolve: enxb619741aab4e: Bus client set DNS server list to: 172.20.10.1
+12:45:41 PM avahi-daemon: Registering new address record for 172.20.10.9 on enxb619741aab4e.IPv4.
+12:45:41 PM NetworkManager: <info>  [1685344541.0140] policy: set 'Wired connection 2' (enxb619741aab4e) as default for IPv4 routing and DNS
+12:45:40 PM systemd: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+12:45:40 PM snap-confine: See https://forum.snapcraft.io/t/11209 for details.
+12:45:40 PM dbus-daemon: dbus-daemon[1310]: [session uid=120 pid=1310] Successfully activated service 'org.a11y.Bus'
+12:45:40 PM avahi-daemon: Registering new address record for fe80::45b3:fb88:e1a6:467b on enxb619741aab4e.*.
+12:45:40 PM kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enxb619741aab4e: link becomes ready
+12:45:40 PM NetworkManager: <info>  [1685344540.9081] dhcp4 (enxb619741aab4e): activation: beginning transaction (timeout in 45 seconds)
+12:45:40 PM systemd: tmp-snap.rootfs_TFLqbT.mount: Deactivated successfully.
+12:45:40 PM snap-confine: AVC apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19122/usr/lib/snapd/snap-confine" pid=1288 comm="snap-confine" capability=38  capname="perfmon"
+12:45:40 PM gnome-shell: Obtained a high priority EGL context
+12:45:40 PM xdg-document-po: Ignoring invalid max threads value 4294967295 > max (100000).
+12:45:40 PM gnome-shell: Boot VGA GPU /dev/dri/card1 selected as primary
+12:45:40 PM systemd: Started xdg-document-portal.service - flatpak document portal service.
+12:45:40 PM gnome-shell: Created gbm renderer for '/dev/dri/card0'
+12:45:40 PM dbus-daemon: [session uid=120 pid=1307] Successfully activated service 'org.freedesktop.portal.Documents'
+12:45:40 PM gnome-shell: Added device '/dev/dri/card1' (amdgpu) using atomic mode setting.
+12:45:40 PM wireplumber: <WpPortalPermissionStorePlugin:0x56054e21f520> Failed to call Lookup: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for camera
+12:45:40 PM systemd: Started xdg-permission-store.service - sandboxed app permission store.
+12:45:40 PM dbus-daemon: [session uid=120 pid=1307] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+12:45:40 PM gnome-shell: Device '/dev/dri/card1' prefers shadow buffer
+12:45:40 PM systemd: Starting xdg-document-portal.service - flatpak document portal service...
+12:45:40 PM dbus-daemon: [session uid=120 pid=1307] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.8' (uid=120 pid=1288 comm="/usr/bin/snap run snapd-desktop-integration" label="unconfined")
+12:45:40 PM gnome-shell: Added device '/dev/dri/card0' (amdgpu) using atomic mode setting.
+12:45:40 PM dbus-daemon: [session uid=120 pid=1307] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.7' (uid=120 pid=1290 comm="/usr/bin/wireplumber" label="unconfined")
+12:45:40 PM bluetoothd: Endpoint registered: sender=:1.35 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+12:45:40 PM wireplumber: Trying to use legacy bluez5 API for LE Audio - only A2DP will be supported. Please upgrade bluez5.
+12:45:40 PM whoopsie-upload: WARNING:root:cloud-init run data not found on system. Unable to add cloud-specific data.
+12:45:40 PM kernel: Bluetooth: RFCOMM ver 1.11
+12:45:40 PM snapd-aa-prompt: AA Prompt UI not implemented
+12:45:40 PM gnome-shell: Running GNOME Shell (using mutter 44.0) as a Wayland display server
+12:45:40 PM wireplumber: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+12:45:40 PM rtkit-daemon: Supervising 6 threads of 3 processes of 1 users.
+12:45:40 PM systemd: Started rtkit-daemon.service - RealtimeKit Scheduling Policy Service.
+12:45:40 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+12:45:40 PM systemd: Starting rtkit-daemon.service - RealtimeKit Scheduling Policy Service...
+12:45:40 PM dbus-daemon: [session uid=120 pid=1307] Successfully activated service 'org.freedesktop.systemd1'
+12:45:40 PM pipewire: mod.rt: found session bus but no portal
+12:45:40 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.29' (uid=120 pid=1291 comm="/usr/bin/pipewire-pulse" label="unconfined")
+12:45:40 PM pipewire: mod.rt: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+12:45:40 PM wireplumber: found session bus but no portal
+12:45:40 PM pipewire-pulse: mod.rt: found session bus but no portal
+12:45:40 PM systemd: Started dbus.service - D-Bus User Message Bus.
+12:45:40 PM dbus-daemon: [session uid=120 pid=1307] AppArmor D-Bus mediation is enabled
+12:45:40 PM systemd: Starting dbus.service - D-Bus User Message Bus...
+12:45:40 PM snapd: stateengine.go:149: state ensure error: Get https://api.snapcraft.io/api/v1/snaps/sections: dial tcp: lookup api.snapcraft.io: no such host
+12:45:40 PM systemd: Startup finished in 207ms.
+12:45:39 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.timedate1'
+12:45:39 PM (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+12:45:39 PM systemd: Starting user@120.service - User Manager for UID 120...
+12:45:39 PM systemd-logind: New session c1 of user gdm.
+12:45:39 PM systemd: Starting user-runtime-dir@120.service - User Runtime Directory /run/user/120...
+12:45:39 PM gdm-session-wor: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+12:45:39 PM systemd: Starting systemd-timedated.service - Time & Date Service...
+12:45:39 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.24' (uid=0 pid=690 comm="/usr/lib/snapd/snapd" label="unconfined")
+12:45:39 PM systemd: Started snapd.service - Snap Daemon.
+12:45:39 PM kernel: amdgpu 0000:05:00.0: [drm] fb0: amdgpudrmfb frame buffer device
+12:45:39 PM kernel: Console: switching to colour frame buffer device 240x67
+12:45:39 PM snapd: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+12:45:39 PM systemd: tmp-syscheck\x2dmountpoint\x2d084204044.mount: Deactivated successfully.
+12:45:39 PM snapd: daemon.go:340: adjusting startup timeout by 1m30s (pessimistic estimate of 30s plus 5s per snap)
+12:45:39 PM kernel: loop16: detected capacity change from 0 to 8
+12:45:39 PM snapd: daemon.go:247: started snapd/2.59.2 (series 16; classic) ubuntu/23.04 (amd64) linux/6.2.0-20-generic.
+12:45:39 PM dnsmasq: read /var/lib/libvirt/dnsmasq/default.hostsfile
+12:45:39 PM NetworkManager: <info>  [1685344539.4869] device (virbr0): Activation: successful, device activated.
+12:45:39 PM avahi-daemon: Registering new address record for 192.168.122.1 on virbr0.IPv4.
+12:45:39 PM snapd: overlord.go:277: Acquired state lock file
+12:45:39 PM whoopsie-upload: INFO:root:Collecting info for /var/crash/_opt_google_chrome_chrome.1000.crash...
+12:45:39 PM avahi-daemon: Server startup complete. Host name is nitro.local. Local service cookie is 4164096526.
+12:45:39 PM NetworkManager: <info>  [1685344539.2549] device (p2p-dev-wlp4s0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+12:45:39 PM kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+12:45:39 PM NetworkManager: <info>  [1685344539.2000] manager: (enxb619741aab4e): new Ethernet device (/org/freedesktop/NetworkManager/Devices/4)
+12:45:38 PM kernel: r8169 0000:03:00.0 enp3s0: Link is Down
+12:45:38 PM NetworkManager: <info>  [1685344538.9072] device (wlp4s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+12:45:38 PM kernel: fbcon: amdgpudrmfb (fb0) is primary device
+12:45:38 PM kernel: [drm] Initialized amdgpu 3.49.0 20150101 for 0000:05:00.0 on minor 1
+12:45:38 PM kernel: amdgpu 0000:05:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+12:45:38 PM kernel: kfd kfd: amdgpu: added device 1002:15d8
+12:45:38 PM kernel: amdgpu: Topology: Add dGPU node [0x67ef:0x1002]
+12:45:38 PM kernel: ---[ end trace 0000000000000000 ]---
+12:45:38 PM kernel:  </TASK>
+12:45:38 PM kernel: R13: 000055a84489f300 R14: 0000000000000000 R15: 000055a8448adab0
+12:45:38 PM kernel: R10: 000000000000001a R11: 0000000000000246 R12: 0000000000020000
+12:45:38 PM kernel: RBP: 00007fe5bb4c0458 R08: 0000000000000000 R09: 00007ffd5f5c4210
+12:45:38 PM kernel: RDX: 0000000000000000 RSI: 00007fe5bb4c0458 RDI: 000000000000001a
+12:45:38 PM kernel: RAX: ffffffffffffffda RBX: 000055a844768de0 RCX: 00007fe5bb31589d
+12:45:38 PM kernel: RSP: 002b:00007ffd5f5c40e8 EFLAGS: 00000246 ORIG_RAX: 0000000000000139
+12:45:38 PM kernel: Code: 5d c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 4b 05 0e 00 f7 d8 64 89 01 48
+12:45:38 PM kernel: RIP: 0033:0x7fe5bb31589d
+12:45:38 PM kernel:  entry_SYSCALL_64_after_hwframe+0x72/0xdc
+12:45:38 PM kernel: Call Trace:
+12:45:38 PM kernel: CR2: 00007f37514141c0 CR3: 0000000116c9a000 CR4: 00000000003506e0
+12:45:38 PM kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+12:45:38 PM kernel: FS:  00007fe5bb42b8c0(0000) GS:ffff9bb1e0c40000(0000) knlGS:0000000000000000
+12:45:38 PM kernel: R13: ffff9baf0b6e76c0 R14: 0000000000000000 R15: ffff9baf112de200
+12:45:38 PM kernel: R10: 0000000000000000 R11: 0000000000000000 R12: ffffffffc1f68170
+12:45:38 PM kernel: RBP: ffffb3af80a537d8 R08: 0000000000000000 R09: 0000000000000000
+12:45:38 PM kernel: RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000000000000
+12:45:38 PM kernel: RAX: 0000000000000000 RBX: ffff9baf032bb2a0 RCX: 0000000000000000
+12:45:38 PM kernel: RSP: 0018:ffffb3af80a537a8 EFLAGS: 00010246
+12:45:38 PM kernel: Code: 53 34 8b 40 34 39 c2 0f 47 d0 89 53 34 e9 0c ff ff ff 48 c7 c7 00 d2 df c1 e8 13 01 db c5 48 c7 c7 f8 2d cd c1 e8 07 cb d1 c5 <0f> 0b e9 ed fe ff ff b8 f4 ff ff ff e9 1c ff ff ff 66 0f 1f 44 00
+12:45:38 PM kernel: RIP: 0010:kfd_add_peer_prop+0x249/0x260 [amdgpu]
+12:45:38 PM kernel: Hardware name: Acer Nitro AN515-43/Octavia_PKS, BIOS V1.12 11/05/2020
+12:45:38 PM kernel: CPU: 1 PID: 327 Comm: systemd-udevd Not tainted 6.2.0-20-generic #20-Ubuntu
+12:45:38 PM kernel:  acer_wireless hid_multitouch input_leds serio_raw mac_hid msr parport_pc ppdev lp parport drm efi_pstore dmi_sysfs ip_tables x_tables autofs4 nvme nvme_core hid_generic r8169 ahci xhci_pci crc32_pclmul libahci xhci_pci_renesas nvme_common i2c_piix4 realtek video i2c_hid_acpi i2c_hid hid wmi
+12:45:38 PM kernel: Modules linked in: cmac ipheth algif_hash algif_skcipher af_alg bnep binfmt_misc nls_iso8859_1 snd_ctl_led amdgpu(+) snd_hda_codec_realtek snd_hda_codec_generic ledtrig_audio intel_rapl_msr snd_hda_codec_hdmi intel_rapl_common snd_hda_intel snd_intel_dspcfg edac_mce_amd snd_intel_sdw_acpi uvcvideo kvm_amd snd_hda_codec videobuf2_vmalloc ath10k_pci snd_hda_core videobuf2_memops snd_hwdep videobuf2_v4l2 kvm iommu_v2 drm_buddy ath10k_core btusb snd_pcm irqbypass gpu_sched btrtl videodev drm_ttm_helper btbcm ath btintel snd_seq_midi crct10dif_pclmul polyval_clmulni polyval_generic snd_seq_midi_event ttm btmtk ghash_clmulni_intel mac80211 joydev snd_rawmidi drm_display_helper apple_mfi_fastcharge videobuf2_common cec bluetooth sha512_ssse3 aesni_intel mc snd_seq rc_core crypto_simd acer_wmi snd_seq_device ecdh_generic cryptd ecc sparse_keymap snd_timer drm_kms_helper wmi_bmof cfg80211 rapl i2c_algo_bit syscopyarea snd sysfillrect ccp sysimgblt soundcore libarc4 k10temp
+12:45:38 PM kernel: WARNING: CPU: 1 PID: 327 at drivers/gpu/drm/amd/amdgpu/../amdkfd/kfd_topology.c:1524 kfd_add_peer_prop+0x249/0x260 [amdgpu]
+12:45:38 PM kernel: CPU node not found
+12:45:38 PM kernel: ------------[ cut here ]------------
+12:45:38 PM kernel: amdgpu: HMM registered 2048MB device memory
+12:45:38 PM kernel: memmap_init_zone_device initialised 524288 pages in 8ms
+12:45:38 PM kernel: amdgpu: sdma_bitmap: 3
+12:45:38 PM kernel: kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+12:45:38 PM kernel: [drm] VCN decode and encode initialized successfully(under SPG Mode).
+12:45:38 PM systemd: Received SIGRTMIN+21 from PID 320 (plymouthd).
+12:45:38 PM kernel: snd_hda_intel 0000:05:00.1: bound 0000:05:00.0 (ops amdgpu_dm_audio_component_bind_ops [amdgpu])
+12:45:38 PM kernel: Generic FE-GE Realtek PHY r8169-0-300:00: attached PHY driver (mii_bus:phy_addr=r8169-0-300:00, irq=MAC)
+12:45:38 PM kernel: [drm] Display Core initialized with v3.2.215!
+12:45:38 PM kernel: amdgpu 0000:05:00.0: amdgpu: RAP: optional rap ta ucode is not available
+12:45:38 PM udisksd: Acquired the name org.freedesktop.UDisks2 on the system message bus
+12:45:38 PM systemd: Started libvirtd.service - Virtualization daemon.
+12:45:38 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+12:45:38 PM NetworkManager: <info>  [1685344538.6792] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+12:45:38 PM systemd: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+12:45:38 PM NetworkManager: <info>  [1685344538.6696] ifupdown: interfaces file /etc/network/interfaces doesn't exist
+12:45:38 PM systemd: Started udisks2.service - Disk Manager.
+12:45:38 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.16' (uid=0 pid=751 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+12:45:38 PM NetworkManager: <info>  [1685344538.6671] manager: Networking is enabled by state file
+12:45:38 PM systemd: Started ModemManager.service - Modem Manager.
+12:45:38 PM NetworkManager: <info>  [1685344538.6670] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+12:45:38 PM systemd: Finished libvirt-guests.service - Suspend/Resume Running libvirt Guests.
+12:45:38 PM NetworkManager: <info>  [1685344538.6625] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-team.so)
+12:45:38 PM rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="919" x-info="https://www.rsyslog.com"] start
+12:45:38 PM systemd: Started rsyslog.service - System Logging Service.
+12:45:38 PM rsyslogd: rsyslogd's groupid changed to 107
+12:45:38 PM systemd: Started systemd-hostnamed.service - Hostname Service.
+12:45:38 PM NetworkManager: <info>  [1685344538.6568] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-adsl.so)
+12:45:38 PM systemd: Started accounts-daemon.service - Accounts Service.
+12:45:38 PM NetworkManager: <info>  [1685344538.6361] rfkill0: found Wi-Fi radio killswitch (at /sys/devices/platform/acer-wmi/rfkill/rfkill0) (platform driver acer-wmi)
+12:45:38 PM systemd: Started cups.service - CUPS Scheduler.
+12:45:38 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.hostname1'
+12:45:38 PM apparmor_parser: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="rsyslogd" pid=689 comm="apparmor_parser"
+12:45:38 PM accounts-daemon: started daemon version 22.08.8
+12:45:38 PM systemd: Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+12:45:38 PM cupsd: AVC apparmor="DENIED" operation="capable" class="cap" profile="/usr/sbin/cupsd" pid=820 comm="cupsd" capability=12  capname="net_admin"
+12:45:38 PM systemd: Starting gdm.service - GNOME Display Manager...
+12:45:38 PM kernel: [drm] reserve 0x400000 from 0xf47fc00000 for PSP TMR
+12:45:38 PM systemd: Reached target sound.target - Sound Card.
+12:45:38 PM kernel: ipheth 1-4:4.2 enxb619741aab4e: renamed from eth0
+12:45:38 PM systemd: snapd.aa-prompt-listener.service: Deactivated successfully.
+12:45:38 PM kernel: usbcore: registered new interface driver ipheth
+12:45:38 PM kernel: amdgpu 0000:05:00.0: amdgpu: Will use PSP to load VCN firmware
+12:45:38 PM kernel: [drm] Found VCN firmware Version ENC: 1.13 DEC: 2 VEP: 0 Revision: 4
+12:45:38 PM kernel: ipheth 1-4:4.2: Apple iPhone USB Ethernet device attached
+12:45:38 PM systemd: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+12:45:38 PM kernel: amdgpu: hwmgr_sw_init smu backed is smu10_smu
+12:45:38 PM kernel: amdgpu 0000:05:00.0: amdgpu: PSP runtime database doesn't exist
+12:45:38 PM kernel: [drm] PTB located at 0x000000F400A00000
+12:45:38 PM kernel: amdgpu 0000:05:00.0: amdgpu: AGP: 267419648M 0x000000F800000000 - 0x0000FFFFFFFFFFFF
+12:45:38 PM kernel: [drm] vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+12:45:38 PM kernel: amdgpu 0000:05:00.0: amdgpu: Trusted Memory Zone (TMZ) feature enabled
+12:45:38 PM kernel: [drm] JPEG decode is enabled in VM mode
+12:45:38 PM NetworkManager: <info>  [1685344538.5814] monitoring ifupdown state file '/run/network/ifstate'.
+12:45:38 PM systemd: Starting libvirt-guests.service - Suspend/Resume Running libvirt Guests...
+12:45:38 PM usbmuxd: [12:45:38.579][3] Connected to v2.0 device 1 on location 0x10003 with serial number 00008110-001605211AD0401E
+12:45:38 PM systemd: Starting cups.service - CUPS Scheduler...
+12:45:38 PM kernel: amdgpu: ATOM BIOS: 113-PICASSO-117
+12:45:38 PM kernel: amdgpu 0000:05:00.0: amdgpu: Fetched VBIOS from VFCT
+12:45:38 PM kernel: [drm] add ip block number 8 <vcn_v1_0>
+12:45:38 PM usbmuxd: [12:45:38.576][3] Enabled exit on SIGUSR1 if no devices are attached. Start a new instance with "--exit" to trigger.
+12:45:38 PM snapd-aa-prompt: AA Prompt listener not implemented
+12:45:38 PM kernel: [drm] initializing kernel modesetting (RAVEN 0x1002:0x15D8 0x1025:0x1366 0xC2).
+12:45:38 PM systemd: Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+12:45:38 PM kernel: amdgpu 0000:01:00.0: amdgpu: Using BOCO for runtime pm
+12:45:38 PM kernel: kfd kfd: amdgpu: added device 1002:67ef
+12:45:38 PM kernel: amdgpu: Topology: Add dGPU node [0x67ef:0x1002]
+12:45:38 PM kernel: kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+12:45:38 PM systemd: Reached target network.target - Network.
+12:45:38 PM NetworkManager: <info>  [1685344538.5580] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+12:45:38 PM systemd: Started wpa_supplicant.service - WPA supplicant.
+12:45:38 PM NetworkManager: <info>  [1685344538.5479] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+12:45:38 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.login1'
+12:45:38 PM ModemManager: <info>  ModemManager (version 1.20.4) starting in system bus...
+12:45:38 PM systemd: Starting modprobe@drm.service - Load Kernel Module drm...
+12:45:38 PM systemd-logind: New seat seat0.
+12:45:38 PM kernel: [drm] VCE initialized successfully.
+12:45:38 PM wpa_supplicant: Successfully initialized wpa_supplicant
+12:45:38 PM systemd: Starting alsa-restore.service - Save/Restore Sound Card State...
+12:45:38 PM sbkeysync: New keys in filesystem:
+12:45:38 PM kernel: NET: Registered PF_ALG protocol family
+12:45:38 PM sbkeysync:     b54f1ee636631fad68058d3b0937031ac1b90ccb17062a391cca68afdbe40d55
+12:45:38 PM udisksd: Failed to load the 'mdraid' libblockdev plugin
+12:45:38 PM sbkeysync:     0c189339762df336ab3dd006a463df715a39cfb0f492465c600e6c6bd7bd898c
+12:45:38 PM systemd: Finished secureboot-db.service - Secure Boot updates for DB and DBX.
+12:45:38 PM sbkeysync:     c452ab846073df5ace25cca64d6b7a09d906308a1a65eb5240e3c4ebcaa9cc0c
+12:45:38 PM systemd: secureboot-db.service: Deactivated successfully.
+12:45:38 PM sbkeysync:     148fe18f715a9fcfe1a444ce0fff7f85869eb422330dc04b314c0f295d6da79e
+12:45:38 PM systemd: Started preload.service - LSB: Adaptive readahead daemon.
+12:45:38 PM sbkeysync:     631f0857b41845362c90c6980b4b10c4b628e23dbe24b6e96c128ae3dcb0d5ac
+12:45:38 PM systemd: Starting wpa_supplicant.service - WPA supplicant...
+12:45:38 PM sbkeysync:     9ed33f0fbc180bc032f8909ca2c4ab3418edc33a45a50d2521a3b5876aa3ea2c
+12:45:38 PM systemd: Starting grub-initrd-fallback.service - GRUB failed boot detection...
+12:45:38 PM preload:    ...done.
+12:45:38 PM udisksd: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+12:45:38 PM systemd: Starting ModemManager.service - Modem Manager...
+12:45:38 PM kernel: Bluetooth: MGMT ver 1.22
+12:45:38 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.6' (uid=0 pid=656 comm="/usr/lib/bluetooth/bluetoothd" label="unconfined")
+12:45:38 PM (uetoothd): Bluetooth management interface 1.22 initialized
+12:45:38 PM dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.10' (uid=0 pid=670 comm="/usr/libexec/power-profiles-daemon" label="unconfined")
+12:45:38 PM systemd: Reached target bluetooth.target - Bluetooth Support.
+12:45:38 PM preload:  * Starting Adaptive readahead daemon preload
+12:45:38 PM systemd: Started systemd-machined.service - Virtual Machine and Container Registration Service.
+12:45:38 PM kernel: Bluetooth: BNEP socket layer initialized
+12:45:38 PM systemd: Started bluetooth.service - Bluetooth service.
+12:45:38 PM avahi-daemon: Registering new address record for 127.0.0.1 on lo.IPv4.
+12:45:38 PM systemd: Started polkit.service - Authorization Manager.
+12:45:38 PM avahi-daemon: No service file found in /etc/avahi/services.
+12:45:38 PM dbus-daemon: [system] Successfully activated service 'org.freedesktop.systemd1'
+12:45:38 PM avahi-daemon: avahi-daemon 0.8 starting up.
+12:45:38 PM usbmuxd: [12:45:38.464][3] Using libusb 1.0.26
+12:45:38 PM avahi-daemon: Successfully dropped root privileges.
+12:45:38 PM systemd: Started thermald.service - Thermal Daemon Service.
+12:45:38 PM (uetoothd): src/plugin.c:plugin_init() Failed to init bap plugin
+12:45:38 PM systemd: gpu-manager.service: Deactivated successfully.
+12:45:38 PM (uetoothd): profiles/audio/mcp.c:mcp_init() D-Bus experimental not enabled
+12:45:38 PM systemd: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+12:45:38 PM udisksd: udisks daemon version 2.9.4 starting
+12:45:38 PM thermald: Unsupported cpu model or platform
+12:45:38 PM (uetoothd): Bluetooth daemon 5.66
+12:45:38 PM systemd: anacron.service: Deactivated successfully.
+12:45:38 PM polkitd: started daemon version 0.105 using authority implementation `local' version `0.105'
+12:45:38 PM usbmuxd: [12:45:38.440][3] usbmuxd v1.1.1 starting up
+12:45:38 PM kernel: [drm] UVD and UVD ENC initialized successfully.
+12:45:38 PM systemd: Started dbus.service - D-Bus System Message Bus.
+12:45:38 PM dbus-daemon: [system] AppArmor D-Bus mediation is enabled
+12:45:38 PM systemd: ua-reboot-cmds.service - Ubuntu Advantage reboot cmds was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/marker-reboot-cmds-required).
+12:45:38 PM cron: (CRON) INFO (Running @reboot jobs)
+12:45:38 PM systemd: Starting switcheroo-control.service - Switcheroo Control Proxy service...
+12:45:38 PM dbus-daemon: dbus[657]: Unknown group "power" in message bus configuration file
+12:45:38 PM systemd: Starting accounts-daemon.service - Accounts Service...
+12:45:38 PM kernel: [drm] Display Core initialized with v3.2.215!
+12:45:38 PM systemd: sssd-sudo.socket: Job sssd-sudo.socket/start failed with result 'dependency'.
+12:45:38 PM avahi-daemon: Found user 'avahi' (UID 110) and group 'avahi' (GID 116).
+12:45:38 PM systemd: Started dmesg.service - Save initial kernel messages after boot.
+12:45:38 PM (uetoothd): ConfigurationDirectory 'bluetooth' already exists but the mode is different. (File system: 755 ConfigurationDirectoryMode: 555)
+12:45:38 PM systemd: Starting bluetooth.service - Bluetooth service...
+12:45:38 PM anacron: Normal exit (0 jobs run)
+12:45:38 PM systemd: Starting avahi-daemon.service - Avahi mDNS/DNS-SD Stack...
+12:45:38 PM anacron: Anacron 2.3 started on 2023-05-29
+12:45:38 PM systemd: Starting apport.service - automatic crash report generation...
+12:45:38 PM apparmor_parser: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.telegram-desktop.telegram-desktop" pid=649 comm="apparmor_parser"
+12:45:38 PM snapd-apparmor: main.go:124: Loading profiles [/var/lib/snapd/apparmor/profiles/snap-confine.snapd.18933 /var/lib/snapd/apparmor/profiles/snap-confine.snapd.19122 /var/lib/snapd/apparmor/profiles/snap-update-ns.firefox /var/lib/snapd/apparmor/profiles/snap-update-ns.snap-store /var/lib/snapd/apparmor/profiles/snap-update-ns.snapd-desktop-integration /var/lib/snapd/apparmor/profiles/snap-update-ns.telegram-desktop /var/lib/snapd/apparmor/profiles/snap.firefox.firefox /var/lib/snapd/apparmor/profiles/snap.firefox.geckodriver /var/lib/snapd/apparmor/profiles/snap.firefox.hook.configure /var/lib/snapd/apparmor/profiles/snap.firefox.hook.connect-plug-host-hunspell /var/lib/snapd/apparmor/profiles/snap.firefox.hook.disconnect-plug-host-hunspell /var/lib/snapd/apparmor/profiles/snap.firefox.hook.post-refresh /var/lib/snapd/apparmor/profiles/snap.snap-store.hook.configure /var/lib/snapd/apparmor/profiles/snap.snap-store.snap-store /var/lib/snapd/apparmor/profiles/snap.snap-store.ubuntu-software /var/lib/snapd/apparmor/profiles/snap.snap-store.ubuntu-software-local-file /var/lib/snapd/apparmor/profiles/snap.snapd-desktop-integration.hook.configure /var/lib/snapd/apparmor/profiles/snap.snapd-desktop-integration.snapd-desktop-integration /var/lib/snapd/apparmor/profiles/snap.telegram-desktop.hook.configure /var/lib/snapd/apparmor/profiles/snap.telegram-desktop.telegram-desktop]
+12:45:38 PM systemd: Starting snapd.apparmor.service - Load AppArmor profiles managed internally by snapd...
+12:45:38 PM apparmor_parser: Warning from /etc/apparmor.d (/etc/apparmor.d/usr.sbin.sssd line 60): Caching disabled for: 'usr.sbin.sssd' due to force complain

@@ -1,0 +1,82 @@
+daniel@nitroo:~$ grep thon /usr/share/dict/words
+Anthony
+Anthony's
+Johnathon
+Johnathon's
+Jonathon
+Jonathon's
+Marathon
+Marathon's
+Phaethon
+Phaethon's
+Python
+Python's
+diphthong
+diphthong's
+diphthongs
+marathon
+marathoner
+marathoner's
+marathoners
+marathon's
+marathons
+python
+python's
+pythons
+telethon
+telethon's
+telethons
+thong
+thong's
+thongs
+daniel@nitroo:~$ grep -i python3 /usr/share/dict/words
+daniel@nitroo:~$ grep -i python3 /usr/share/dict/word
+grep: /usr/share/dict/word: No such file or directory
+daniel@nitroo:~$ grep -i python /usr/share/dict/words
+Python
+Python's
+python
+python's
+pythons
+daniel@nitroo:~$ grep l.rts /usr/share/dict/words
+alerts
+blurts
+flirts
+daniel@nitroo:~$ grep ^fruit /usr/share/dict/words
+fruit
+fruitcake
+fruitcake's
+fruitcakes
+fruited
+fruitful
+fruitfully
+fruitfulness
+fruitfulness's
+fruitier
+fruitiest
+fruiting
+fruition
+fruition's
+fruitless
+fruitlessly
+fruitlessness
+fruitlessness's
+fruit's
+fruits
+fruity
+daniel@nitroo:~$ grep cat$ /usr/share/dict/words
+Muscat
+bobcat
+cat
+copycat
+ducat
+lolcat
+muscat
+polecat
+pussycat
+scat
+tomcat
+wildcat
+daniel@nitroo:~$ 
+
+

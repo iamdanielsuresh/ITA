@@ -1,0 +1,84 @@
+1. to redirect output of a file, use greater than symbol >
+
+	./hello_world.py > new_file.txt
+
+here the o/p is added new_file.txt
+
+2. To append (no overwriting)
+		
+		./hello_world.py >> new_file.txt
+
+3. To take input from a file
+
+		./your_name.py < names.txt		
+
+4. To redirect error otput to seperate file:
+		./streams_err.py < new_file.txt 2> error_file.txt	
+
+5.command1 | command2: connects the output of command1 to the input of command2
+
+----- BEGIN LICENSE -----
+Member GPT
+Single User License
+F5C2-2022258
+A6B3D50C 2C9C087F E54F8B7F D7A65033
+C8C9F623 34E3F37E 1BF2D4B6 E8925EA2
+D9D5F345 7E45C798 8C9E49F4 54F90A47
+B2A8D3CB 1C2674F3 2AB4C8A1 9FDEB26C
+E6B4F9AD 72EBC69F A863C53D E59D7CE0
+3214A0BC F4CE58F8 C22FF3D6 5E1D2C94
+ED46B79A 6E8D2E03 B570ED47 9D309EA8
+C79A5EB2 3B9FD6C8 8DEE7BC9 256C8A29
+------ END LICENSE ------
+
+
+
+dani@nitro:~/Code/bash$ ./gather_info.sh
+Starting at: Wednesday 31 May 2023 12:25:43 AM IST
+--------------------------------------------------
+UPTIME
+ 00:25:43 up 13:37,  2 users,  load average: 0.51, 0.53, 0.54
+--------------------------------------------------
+FREE
+               total        used        free      shared  buff/cache   available
+Mem:        14232024     4346972      946636       92876     9357024     9885052
+Swap:        4194300        3140     4191160
+--------------------------------------------------
+WHO
+dani     seat0        2023-05-30 10:48 (login screen)
+dani     tty2         2023-05-30 10:48 (tty2)
+--------------------------------------------------
+Finishing at : Wednesday 31 May 2023 12:25:43 AM IST
+dani@nitro:~/Code/bash$ echo *.py
+*.py
+dani@nitro:~/Code/bash$ echo *.txt
+*.txt
+dani@nitro:~/Code/bash$ echo *.sh
+gather_info.sh
+dani@nitro:~/Code/bash$ subl check_localhost.sh
+dani@nitro:~/Code/bash$ cat check_localhost.sh
+#!/bin/bash
+
+if grep "127.0.0.1" /etc/hosts; then
+	echo "Everything is Okay"
+else
+		echo "ERROR! 127.0.0.1 is not in /etc/hosts"
+fi			dani@nitro:~/Code/bash$ 
+dani@nitro:~/Code/bash$ cat check_localhost.sh
+#!/bin/bash
+
+if grep "127.0.0.1" /etc/hosts; then
+	echo "Everything is Okay"
+else
+		echo "ERROR! 127.0.0.1 is not in /etc/hosts"
+fi			
+
+dani@nitro:~/Code/bash$ chmod +x check_localhost.sh
+dani@nitro:~/Code/bash$ ./check_localhost.sh
+127.0.0.1 localhost
+Everything is Okay
+dani@nitro:~/Code/bash$ if test -n "$PATH";then echo "your path is not empty"; fi
+your path is not empty
+dani@nitro:~/Code/bash$ if [ -n "$PATH" ]; then echo "Yourdick" if
+> fi
+

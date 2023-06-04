@@ -1,0 +1,28 @@
+10:49:00 AM libvirtd: End of file while reading data: Input/output error
+10:49:00 AM libvirtd: End of file while reading data: Input/output error
+10:49:00 AM libvirtd: End of file while reading data: Input/output error
+10:45:47 AM libvirtd: internal error: Unable to get session bus connection: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender="(null)" (inactive) interface="org.freedesktop.DBus" member="Hello" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus)
+10:45:47 AM libvirtd: Failed to read AppArmor profiles list '/sys/kernel/security/apparmor/profiles': Permission denied
+10:45:47 AM libvirtd: Failed to open file '/sys/kernel/security/apparmor/profiles': Permission denied
+10:45:47 AM libvirtd: Failed to read AppArmor profiles list '/sys/kernel/security/apparmor/profiles': Permission denied
+10:45:47 AM libvirtd: Failed to open file '/sys/kernel/security/apparmor/profiles': Permission denied
+ 9:04:10 AM bluetoothd: src/profile.c:record_cb() Unable to get Hands-Free Voice gateway SDP record: Host is down
+May 28 10:37:43 PM kernel: ath10k_pci 0000:04:00.0: Could not init core: -110
+May 28 10:08:44 PM bluetoothd: src/profile.c:record_cb() Unable to get Hands-Free Voice gateway SDP record: Host is down
+May 28 10:08:30 PM kernel: wlp4s0: failed to remove key (0, 02:00:1a:97:25:5f) from hardware (-110)
+May 28 10:08:27 PM kernel: ath10k_pci 0000:04:00.0: AMD-Vi: Event logged [IO_PAGE_FAULT domain=0x000e address=0xff000450 flags=0x0070]
+May 28  9:40:49 PM kernel: wlp4s0: failed to remove key (0, 22:78:12:41:8f:2e) from hardware (-110)
+May 28  9:40:46 PM kernel: ath10k_pci 0000:04:00.0: AMD-Vi: Event logged [IO_PAGE_FAULT domain=0x000e address=0xfb4cfe50 flags=0x0070]
+May 28  9:03:12 PM bluetoothd: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+May 28  8:54:09 PM kernel: wlp4s0: failed to remove key (0, 62:87:34:97:dd:9a) from hardware (-110)
+May 28  8:36:44 PM libvirtd: End of file while reading data: Input/output error
+May 28  7:25:23 PM gdm-session-wor: gkr-pam: unable to locate daemon control file
+May 28  7:25:16 PM bluetoothd: src/profile.c:record_cb() Unable to get Hands-Free Voice gateway SDP record: Host is down
+May 28  7:25:08 PM systemd: Failed to start xdg-desktop-portal-gnome.service - Portal service (GNOME implementation).
+May 28  7:22:00 PM bluetoothd: src/profile.c:record_cb() Unable to get Hands-Free Voice gateway SDP record: Host is down
+May 28  7:22:00 PM gdm-session-wor: gkr-pam: unable to locate daemon control file
+May 28  7:21:51 PM (uetoothd): src/plugin.c:plugin_init() Failed to init bap plugin
+May 28  7:21:51 PM kernel: ACPI Error: Aborting method \_SB.PCI0.GP17.VGA.ATRM due to previous error (AE_AML_OPERAND_VALUE) (20221020/psparse-529)
+May 28  7:21:48 PM systemd-udevd: event_source: Failed to get device name: No such file or directory
+May 28  7:21:48 PM kernel: integrity: Problem loading X.509 certificate -65
+May 28  7:21:48 PM kernel: ACPI Error: AE_NOT_FOUND, During name lookup/catalog (20221020/psobject-220)
