@@ -4,4 +4,4 @@ def luckynum(name):
     print("Hey ",b + a )
     
 luckynum("daniel")   
-luckynum("kumbilichekidan")    
+luckynum("david")    
